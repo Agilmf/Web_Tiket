@@ -1,0 +1,82 @@
+/* Gaya CSS tetap sama */
+
+body {
+  font-family: Arial, sans-serif;
+   background-color: #FF69B4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.ticket-container {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ticket {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.success-message {
+  color: green;
+  font-weight: bold;
+  background-color: #d4f4d4;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  background-color: #f9c7c7;
+}
+
